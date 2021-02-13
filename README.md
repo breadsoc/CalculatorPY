@@ -6,7 +6,7 @@
 The current supported operations are `Divide`, `Multiply`, `Addition`, `Subtraction`.
 
 ## Contributors
-[Nukestye](https://github.com/Nukestye) [exdoth](https://github.com/exdoth)
+[Nukestye](https://github.com/Nukestye), [exdoth](https://github.com/exdoth)
 
 ## Usage
 Run the program and type in your calculation needed to be processed by the program.
