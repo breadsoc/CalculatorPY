@@ -26,8 +26,7 @@ Public License instead of this License.  But first, please read
 """
 
 # Import
-import operation
-import util
+from src import util, operation
 
 inpt = input("Input your calculation: ")  # input: 1 / 2 * 3 + 4 - 5
 

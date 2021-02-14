@@ -21,7 +21,7 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 """
 
-import util
+from src import util
 
 
 def check(operations, calculations):

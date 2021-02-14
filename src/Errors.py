@@ -21,9 +21,11 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 """
 
+
 class OperationError(Exception):
     """
     """
+
     def __init__(self, message="Incorrect Calculation Format"):
         self.message = message
         super().__init__(self.message)
@@ -32,6 +34,7 @@ class OperationError(Exception):
 class FormatError(Exception):
     """
     """
+
     def __init__(self, message=""):
         self.message = message
         super().__init__("Invalid Format: " + self.message)
