@@ -21,7 +21,7 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 """
 
-import Errors
+from src import Errors
 
 
 def operationsFrom(string):
@@ -38,11 +38,14 @@ def operationsFrom(string):
     for i in range(len(string)):
         if string[i] == "/":
             List.append("/")
-        elif string[i] == "*":
+    for i in range(len(string)):
+        if string[i] == "*":
             List.append("*")
-        elif string[i] == "+":
+    for i in range(len(string)):
+        if string[i] == "+":
             List.append("+")
-        elif string[i] == "-":
+    for i in range(len(string)):
+        if string[i] == "-":
             List.append("-")
 
     return List

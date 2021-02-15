@@ -1,6 +1,6 @@
 """
 # :author: nukestye, exdoth
-# :version: 0.20
+# :version: 0.30
 # :description: A command-line interface calculator made solely of python.
 # :license:
 CalculatorPY  Copyright (C) 2021  nukestye, exdoth
